@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RTC_IOS"
-  s.version      = "11177"
+  s.version      = "12649"
   s.summary      = "WebRTC Video Streaming Peer Connection API's. An iOS WebRTC demo application hosted on App Engine. Builds by Pristine.io"
   s.description      = <<-DESC
                        The WebRTC native APIs are implemented based on the following [WebRTC spec.](http://dev.w3.org/2011/webrtc/editor/webrtc.html) 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.platform = :ios, '7.0'
   s.osx.platform = :osx, '10.8'
   s.author       = { "Shaw" => "shaozl@live.com" }
-  s.source       = { :http => "https://raw.githubusercontent.com/shaozl/RTC_IOS/master/libWebRTC_11177.tar.bz2" }
+  s.source       = { :http => "https://raw.githubusercontent.com/shaozl/RTC_IOS/master/libWebRTC_12649.tar.bz2" }
   s.ios.source_files =  'RTC_IOS/Headers/*.h'
   s.ios.public_header_files = "RTC_IOS/Headers/*.h"
   s.ios.preserve_paths = 'RTC_IOS/libWebRTC.a'
